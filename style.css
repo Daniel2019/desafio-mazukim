@@ -1,0 +1,331 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    min-height: 100%;
+    flex-direction: column;
+}
+
+/* HEADER */
+.text{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    background-color: #14a24e;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.text1{
+    height: 50px;
+    background-color: #154e25;
+    width: 50%;
+    display: flex;
+    color: white;
+    align-items: center;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.text1 b{
+    color: yellow;
+}
+
+.text2{
+    height: 50px;
+    background-color: #14a24e;
+    width: 50%;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.text2 b{
+    color: yellow;
+}
+
+.instagram{
+    width: 28px;
+    height: 23px;
+    align-items: flex-end;
+}
+
+.fecebook{
+    width: 35px;
+    height: 18px;
+    align-items: flex-end;
+}
+
+
+
+.vai{
+    height: 130px;
+    display: flex;
+}
+
+.butao-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+}
+.butao-logo button{
+    color: white;
+    background-color: #ed1b24;
+    border: solid 1px #ed1b24;
+    width: 120px;
+    height: 33px;
+    font-size: 12px;
+}
+
+.butao-logo input{
+    font-size: 10px;
+    width: 250px;
+    height: 30px;
+    border: solid 1px #e1e1e1;
+    color: #e1e1e1;
+    font-style: italic;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    flex-direction: row;
+}
+.link img{
+    width: 25px;
+    height: 15px;
+}
+
+.link a{
+    text-decoration: none;
+    font-size: 10px;
+    color: #154e25;
+    justify-content: center;
+    align-items:center;
+    padding: 5px;
+}
+
+.link a:hover{
+    color: #e1e1e1;
+}
+
+.logo img{
+    height: 130px;
+    width: 300px;
+    padding-left: 20px;
+}
+
+.servicos {
+    display: flex;
+    height: 50px;
+    background-color: #154e25;
+    font-size: 11px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.servicos a{
+    padding: 15px;
+    text-decoration: none;
+    color: #C0C0C0;
+}
+
+.servicos a:hover{
+    color: white;
+}
+
+.anuncio{
+    background-color: #ed1b24;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anuncio img{
+    height: 38px;
+    width: 40px;
+}
+.anuncio p{
+    margin: 5px;
+    font-size: 18px;
+    color: white;
+}
+
+.nav img{
+    width: 100%;
+    height: 430px; 
+    background-color: black;
+    display: flex;
+}
+
+/* SECTION */
+
+.itens{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item1{
+    width: 40%;
+    height: 300px;
+    padding-right: 80px;
+}
+
+.item1 img{
+    width: 100%;
+    height: 300px;
+}
+
+.item2{
+    width: 40%;
+    height: 300px;
+}
+
+.item2 img{
+    width: 100%;
+    height: 300px;
+}
+
+.redes-sociais{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height:  80px;
+}
+
+.fecebook-icone {
+    width: 80px;
+    height: 50px;
+}
+
+.instagram-icone{
+    width: 60px;
+    height: 60px;
+}
+
+.redes-sociais p{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+/* FOOTER */
+
+.footer{
+    width: 100%;
+    
+}
+.parte1{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f3f2;
+}
+
+.parte1 p{
+    font-size: 11px;
+    color: #565857;
+}
+
+.parte1 p:hover{
+    color: gray;
+}
+
+.parte1 h2{
+    font-size: 15px;
+    color: #404241;
+    padding-bottom: 10px;
+}
+
+.card-suporte{
+    height: 60%;
+    width: 250px;
+    margin: 20px;
+}
+
+.card-paginas{
+    height: 60%;
+    width: 250px;
+    margin: 20px;
+}
+
+.card-categorias{
+    height: 60%;
+    width: 250px;
+    margin: 20px;
+}
+
+.card-atentimento{
+    height: 60%;
+    width: 250px;
+    margin: 20px;
+}
+
+.linha{
+    width: 90%;
+    height: 1px;
+    background-color: #404241;
+    margin-left: 5%;
+}
+
+.parte2{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f1f3f2;
+}
+
+.informacoes{
+    width: 30%;
+    margin-left: 5%;
+}
+
+.informacoes p{
+    font-size: 9px;
+    color: #000000;
+    font-weight: bolder;
+    margin-top: -12px;
+    justify-content: space-between;
+}
+
+.informacoes h3{
+    font-size: 10px;
+    color: #154e25;
+}
+.footer-logos{
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: flex-end
+}
+.footer-logos img{
+    width: 100px;
+    height: 60px;
+}
+
+.direitos-autorais{
+    width: 100%;
+    height: 40px;
+}
+.direitos-autorais{
+    font-size: 8px;
+    color: #565857;
+    width: 100%;
+    margin-left: 5%;
+}
